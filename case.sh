@@ -25,7 +25,7 @@ echo "1 - create a backup sql"
 echo "2 - create a backup rr" #dev_feature
 read number
 
-if ((number == 1)) 
+if ((number == 1))
 then
    f_input_1
 elif ((number == 2))
@@ -33,4 +33,7 @@ then
    f_input_2
 else
     echo "wrong"
-fi 
+fi
+
+
+#dev, commit 1
